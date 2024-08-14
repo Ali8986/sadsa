@@ -1,0 +1,130 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #F1F5F8;
+}
+
+.header {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+.input-group1 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    text-align: center;
+    width: 100%;
+    max-width: 600px; /* Center align and constrain max-width */
+    margin: auto;
+    background-color: #fff;
+}
+
+input {
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    padding: 10px 15px !important;
+}
+
+.submit-btn1 {
+    text-decoration: none !important;
+}
+
+.list1 {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    border-radius: 8px !important;
+    border: 1px solid #e0e0e0 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    word-wrap: break-word;
+    padding: 10px 15px !important;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-group-item .mark-done {
+    margin-right: 10px;
+}
+
+.fa-trash {
+    color: #dc3545;
+}
+
+.fa-edit {
+    color: #007bff;
+}
+
+.fa-clone {
+    color: #28a745;
+}
+
+.fa-arrow-up,
+.fa-arrow-down {
+    color: #ffc107;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+#show {
+    display: none;
+    justify-content: center;
+    transition: 0.9s ease;
+}
+p{
+    margin-top: 12px !important;
+    word-break: break-all;
+    text-align: left;
+    width: 62%;
+}
+.list-link1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.alert p{
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.alert-danger{
+    background-color: transparent !important;
+    border-color: transparent !important;;
+}
+ul{
+    border: 1px solid #80808042;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    padding: 8px;
+}
+
+.list-group-item {
+    border-radius: 8px !important;
+    border: 1px solid #e0e0e0 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    word-wrap: break-word;
+    padding: 10px 15px !important;
+    background-color: #fff;
+    position: relative;
+}
+
+.mark-done {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.list-group-item.checked p {
+    text-decoration: line-through;
+    color: #6c757d; 
+}
+#removeEmpty{
+    transition: 0.6s ease;
+    display: none;
+}
